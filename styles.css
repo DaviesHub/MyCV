@@ -1,0 +1,129 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.showcase-img {
+    height: 33rem;
+}
+
+@media (max-width: 308px) {
+.sc-arrow{
+    display: block;
+    }
+}
+
+.card {
+    height: 100%;
+}
+
+.carousel-img {
+    height: 40rem;
+}
+
+.carousel-text,
+.footer-text {
+    font-family: Verdana;
+}
+
+.carousel-text-b {
+    font-size:24px
+}
+
+body::before {
+    display: block;
+    content: "";
+    height: 60px;
+}
+
+
+
+@media (max-width: 576px) {
+    .carousel-text-a {
+        font-size: 18px;
+    }
+
+    .carousel-text-b {
+        font-size: 14px;
+    }
+
+    .carousel-img {
+        height: 11rem;
+    }
+}
+
+/* Range slider styles */
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+    width: 100%;
+  }
+
+input[type="range"]::-webkit-slider-runnable-track {
+    background: #FF4500;
+    height: 4px;
+    border-radius: 5px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    appearance: none;
+    height: 12px;
+    width: 12px;
+    background-color: white;
+    border-radius: 25px;
+    margin-top: -4px;
+}
+
+input[type="range"]:focus {
+    outline: none;
+} 
+
+input[type="range"]:focus::-webkit-slider-thumb {
+    border: 1px solid #E6E6FA;
+    outline: 3px solid #E6E6FA;
+    outline-offset: 0.125rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+svg {
+    width: 28px;
+    height: 28px;
+}
+
+@media (max-width: 390px) {
+    .footer-text-icon {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 390px) {
+    svg {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (max-width: 284px) {
+    .footer-text-icon {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 284px) {
+    svg {
+        width: 15px;
+        height: 15px;
+    }
+}
